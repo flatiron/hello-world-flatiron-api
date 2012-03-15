@@ -6,6 +6,8 @@ branches:
   only:
     - master
 notifications:
-  webhooks: http://webhooks.jit.su/deploy
+  webhooks: 
+    urls:
+      - http://webhooks.jit.su/deploy
     on_success: always
     on_failure: never
