@@ -9,8 +9,8 @@ app.use(flatiron.plugins.http,
   }
 });
 
-app.router.get('/', function (){
-  this.res.send({"hello": "world"});
+app.router.get('/', function () {
+  this.res.json({"hello": "world"});
 });
 
 app.start(3000, function () { console.log({"flatiron": "ok"}); });
