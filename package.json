@@ -1,0 +1,14 @@
+{
+  "name": "hello-world-api-flatiron",
+  "subdomain": "hello-world-api-flatiron",
+  "description": "Sample API in Flatironjs",
+  "version": "0.0.1",
+  "dependencies": { "flatiron": "0.1.13" },
+  "devDependencies": { "specify": "0.1.x" },
+  "scripts": {
+    "test": "ls -tr test/*-test.js | xargs -I{} node {}"
+  },
+  "engines": {
+    "node": "0.6.x"
+  }
+}
