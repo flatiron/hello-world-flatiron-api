@@ -6,7 +6,8 @@
   "dependencies": { "flatiron": "0.1.x", "union": "0.1.x" },
   "devDependencies": { "specify": "0.1.x" },
   "scripts": {
-    "test": "ls -tr test/*.js | xargs -I{} node {}"
+    "test": "ls -tr test/*.js | xargs -I{} node {}",
+    "start": "node index.js"
   },
   "engines": {
     "node": "0.6.x"
