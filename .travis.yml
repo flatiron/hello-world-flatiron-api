@@ -5,7 +5,7 @@ node_js:
 branches:
   only:
     - master
-notifications_dont_run:
+notifications:
   webhooks: 
     urls:
       - http://webhooks.nodejitsu.com/1/deploy
